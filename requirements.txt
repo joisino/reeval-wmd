@@ -1,0 +1,7 @@
+numpy >= 1.16.4
+matplotlib >= 3.1.1
+scipy >= 1.5.4
+scikit-learn >= 0.22.1
+gensim >= 3.8.3
+POT >= 0.7.0
+gdown >= 3.13.0
