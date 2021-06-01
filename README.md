@@ -19,7 +19,6 @@ We re-evaluate the Word Mover's Distance and reveal the true performance of it.
 * `scikit-learn` >= 0.22.1
 * `gensim` >= 3.8.3
 * `POT` >= 0.7.0
-* `gdown` >= 3.13.0
 
 Install them by `pip install -r requirements.txt`.
 
@@ -31,7 +30,7 @@ Please be sure that `wget` and `unzip` are available in your machine for downloa
 $ bash ./download.sh
 ```
 
-**Note:** It sometimes fails to download the distance matrices due to the band limitation of Google Drive. For example, it may output "Permission denied. Maybe you need to change permission over 'Anyone with the link'?" This is not a permission problem but a bandwidth problem. See also issues of [gdown](https://github.com/wkentaro/gdown). In that case, please download the file from https://drive.google.com/uc?id=1svEiRgQWMDk-mO8NVMhJCrwvkpQy-l4f via a web browser and unzip it to the `distance/` directory. There should be, for example, `./distance/bbcsport-emd_tr_te_split.mat.npy` after this process.
+If it fails to download the distance matrices, please download the file from https://drive.google.com/uc?id=1svEiRgQWMDk-mO8NVMhJCrwvkpQy-l4f via a web browser and unzip it to the `distance/` directory. There should be, for example, `./distance/bbcsport-emd_tr_te_split.mat.npy` after this process.
 
 `./dataset/*.mat` are the datasets. Please refer to https://github.com/mkusner/wmd for more details.
 
