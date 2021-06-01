@@ -2,6 +2,8 @@
 
 We re-evaluate the Word Mover's Distance and reveal the true performance of it.
 
+Paper: https://arxiv.org/abs/2105.14403
+
 ↓ KNN classification errors in the original evaluation:
 
 ![original evaluation](imgs/original_eval.png)
@@ -181,3 +183,16 @@ $ python summarize_distances.py data/bbcsport-emd_tr_te_split.mat --tfidf
 ## Feedback and Contact
 
 Please feel free to contact me at r.sato AT ml.ist.i.kyoto-u.ac.jp, or to open issues.
+
+## Citation
+
+```
+@article{sato2021reevaluating,
+  author    = {Ryoma Sato and
+               Makoto Yamada and
+               Hisashi Kashima},
+  title     = {Re-evaluating Word Mover's Distance},
+  journal   = {arXiv},
+  year      = {2021},
+}
+```
