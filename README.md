@@ -1,4 +1,4 @@
-# Re-evaluating Word Mover's Distance
+# Re-evaluating Word Mover's Distance (ICML 2022)
 
 We re-evaluate the Word Mover's Distance and reveal the true performance of it.
 
