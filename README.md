@@ -187,12 +187,12 @@ Please feel free to contact me at r.sato AT ml.ist.i.kyoto-u.ac.jp, or to open i
 ## Citation
 
 ```
-@article{sato2021reevaluating,
+@inproceedings{sato2022reevaluating,
   author    = {Ryoma Sato and
                Makoto Yamada and
                Hisashi Kashima},
   title     = {Re-evaluating Word Mover's Distance},
-  journal   = {arXiv},
-  year      = {2021},
+  journal   = {Proceedings of the 39th International Conference on Machine Learning, {ICML}},
+  year      = {2022},
 }
 ```
